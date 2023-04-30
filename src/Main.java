@@ -17,6 +17,12 @@ public class Main {
 
         System.out.println(curso);
         System.out.println(mentoria);
+
+        // POLIMORFISMO: podemos criar um curso através da classe conteudo
+        // tudo o que tem dentro de conteudo tem em curso
+        // nem tudo o que tem em curso temos em conteudo   
+        Conteudo conteudo = new Curso(); 
+        Conteudo conteudo = new Mentoria(); 
     }
 
 }
